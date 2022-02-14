@@ -1,0 +1,64 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+ // Defining a variable
+ $green: #F0FFC2;
+
+ body {
+   background: $green; // Using this variable
+ }
+
+ html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ h1 {
+  color: #FFBBBB;
+  font-size: 60px;
+  align-items: center;
+}
+
+.form {
+  border: 2px solid #FFBBBB;
+  padding: 20px;
+}
+
+.question {
+  color: #FFBBBB;
+  font-size: 25px;
+}
+
+#button {
+background-color: #FFBBBB;
+color: #F0FFC2;
+border: #FFBBBB;
+font-size: 20px;
+}
+
+#button:hover {
+background-color: #F0FFC2;
+color: #FFBBBB;
+}
+
+.box {
+  font-size: 20px;
+  border: 2px dotted #FFBBBB;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
